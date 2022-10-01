@@ -30,6 +30,7 @@ export const getStaticProps: GetStaticProps = async () => {
                 }),
             })
         ).json();
+        console.log('access_token', access_token);
 
         ({ types } = await (
             await fetch (`${NEXT_PUBLIC_PETFINDER_API_URL}/types`, {
@@ -45,7 +46,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
     return {
         props: {
-            types: []
+            types: types
         }
     };
 }
