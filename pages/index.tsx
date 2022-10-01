@@ -30,7 +30,6 @@ export const getStaticProps: GetStaticProps = async () => {
                 }),
             })
         ).json();
-        console.log('access_token', access_token);
 
         ({ types } = await (
             await fetch (`${NEXT_PUBLIC_PETFINDER_API_URL}/types`, {
@@ -46,8 +45,13 @@ export const getStaticProps: GetStaticProps = async () => {
 
     return {
         props: {
-            types: types
-        }
+            types: types.length > 0
+            ? types.map((type) => ({
+                ...type,
+                id: (type._links.self.href.match(/\/types\/([\w-]+)$/) || "")[1],
+            }))
+            :types,
+        },
     };
 }
 

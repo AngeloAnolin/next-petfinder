@@ -36,7 +36,7 @@ const TypeCard: FC<TypeCardProps> = ({ className, type}) => (
                         }}
                     >
                         <a  className="relative mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-                            <span className="ml-3">Browse Pet Listings</span>
+                            <span className="ml-3">{`Browse ${type.name} Listings`}</span>
                         </a>
                     </Link>
                 </div>
