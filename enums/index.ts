@@ -17,7 +17,7 @@ interface AnimalTypesEnum {
 export const ANIMAL_TYPES: AnimalTypesEnum = {
     Dog: {
         image: {
-            url: "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+            url: "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&w=320",
         },
         photographer: {
             name: "Karsten Winegeart",
@@ -26,9 +26,9 @@ export const ANIMAL_TYPES: AnimalTypesEnum = {
     },
     Cat: {
         image: {
-            url: "https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+            url: "https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&w=320",
             styles: {
-                backgroundPosition: "center top",
+                objectPosition: "center top",
             },
         },
         photographer: {
@@ -38,7 +38,7 @@ export const ANIMAL_TYPES: AnimalTypesEnum = {
     },
     Rabbit: {
         image: {
-            url: "https://images.unsplash.com/photo-1589933767411-38a58367efd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+            url: "https://images.unsplash.com/photo-1589933767411-38a58367efd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&w=320",
         },
         photographer: {
             name: "Andriyko Podilnyk",
@@ -47,7 +47,7 @@ export const ANIMAL_TYPES: AnimalTypesEnum = {
     },
     "Small & Furry": {
         image: {
-            url: "https://images.unsplash.com/photo-1452721226468-f95fb66ebf83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+            url: "https://images.unsplash.com/photo-1452721226468-f95fb66ebf83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&w=320",
         },
         photographer: {
             name: "Silje Roseneng",
@@ -56,7 +56,7 @@ export const ANIMAL_TYPES: AnimalTypesEnum = {
     },
     Horse: {
         image: {
-            url: "https://images.unsplash.com/photo-1534681534056-461f50de526f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+            url: "https://images.unsplash.com/photo-1534681534056-461f50de526f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&w=320",
         },
         photographer: {
             name: "Roman Fox",
@@ -65,9 +65,9 @@ export const ANIMAL_TYPES: AnimalTypesEnum = {
     },
     Bird: {
         image: {
-            url: "https://images.unsplash.com/photo-1550853024-fae8cd4be47f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+            url: "https://images.unsplash.com/photo-1550853024-fae8cd4be47f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&w=320",
             styles: {
-                backgroundPosition: "-1rem center",
+                objectPosition: "-1rem center",
             },
         },
         photographer: {
@@ -77,7 +77,7 @@ export const ANIMAL_TYPES: AnimalTypesEnum = {
     },
     "Scales, Fins & Other": {
         image: {
-            url: "https://images.unsplash.com/photo-1495594059084-33752639b9c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+            url: "https://images.unsplash.com/photo-1495594059084-33752639b9c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&w=320",
         },
         photographer: {
             name: "Pietro Jeng",
@@ -86,9 +86,9 @@ export const ANIMAL_TYPES: AnimalTypesEnum = {
     },
     Barnyard: {
         image: {
-            url: "https://images.unsplash.com/photo-1565079512417-25b61e17bf76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+            url: "https://images.unsplash.com/photo-1565079512417-25b61e17bf76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&w=320",
             styles: {
-                backgroundPosition: "left center",
+                objectPosition: "left center",
             },
         },
         photographer: {
